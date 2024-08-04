@@ -1,9 +1,17 @@
 warrior:
-  max_health: 40
-  movement_speed: 0.1
-  attack_damage: 10
-
-ninja:
-  max_health: 20
+  max_health: 40.0
   movement_speed: 0.2
-  attack_damage: 5
+  attack_damage: 10.0
+  scoreboard_color: 4
+
+mage:
+  max_health: 30.0
+  movement_speed: 0.25
+  attack_damage: 7.0
+  scoreboard_color: 9
+
+archer:
+  max_health: 35.0
+  movement_speed: 0.3
+  attack_damage: 8.0
+  scoreboard_color: 3

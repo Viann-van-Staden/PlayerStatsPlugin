@@ -15,3 +15,6 @@ commands:
   setclass:
     description: Sets players class/attributes
     usage: /setclass <player> <class>
+  showclass:
+    description: Shows players class/attributes
+    usage: /showclass <player>

@@ -1,11 +1,12 @@
 package me.viann.playerStats.commands;
 
-import com.sun.tools.javac.Main;
 import me.viann.playerStats.PlayerStats;
 import me.viann.playerStats.managers.PlayerClass;
+import net.kyori.adventure.text.Component;
+import net.kyori.adventure.text.format.NamedTextColor;
+import org.bukkit.Bukkit;
 import org.bukkit.attribute.Attribute;
 import org.bukkit.attribute.AttributeInstance;
-import org.bukkit.Bukkit;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandExecutor;
 import org.bukkit.command.CommandSender;
@@ -39,6 +40,7 @@ public class SetClassCommand implements CommandExecutor {
             return true;
         }
 
+        plugin.setPlayerClassAssignment(target.getUniqueId(), className);
         setPlayerAttributes(target, playerClass);
         sender.sendMessage("Set " + target.getName() + " to class " + className);
         return true;
