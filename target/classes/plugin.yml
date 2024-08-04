@@ -1,0 +1,17 @@
+name: PlayerStats
+version: '1.0-SNAPSHOT'
+main: me.viann.playerStats.PlayerStats
+api-version: '1.20'
+commands:
+  sethealth:
+    description: Sets the health of a player
+    usage: /sethealth <player> <amount>
+  setmaxhealth:
+    description: Sets the maximum health of a player
+    usage: /setmaxhealth <player> <amount>
+  setspeed:
+    description: Sets the movement speed of a player
+    usage: /setspeed <player> <speed>
+  setclass:
+    description: Sets players class/attributes
+    usage: /setclass <player> <class>

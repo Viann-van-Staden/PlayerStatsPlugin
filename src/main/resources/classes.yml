@@ -1,0 +1,9 @@
+warrior:
+  max_health: 40
+  movement_speed: 0.1
+  attack_damage: 10
+
+ninja:
+  max_health: 20
+  movement_speed: 0.2
+  attack_damage: 5

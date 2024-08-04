@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="PlayerStats:jar">
+    <output-path>$USER_HOME$/Desktop/Minecraft-Test-Servert-Paper/plugins</output-path>
+    <root id="archive" name="PlayerStats.jar">
+      <element id="module-output" name="PlayerStats" />
+    </root>
+  </artifact>
+</component>
